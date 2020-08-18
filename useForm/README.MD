@@ -1,3 +1,11 @@
-# NOTAS
+# useForm Hook
 
-Eston son hooks personalizados para react js
+Ejemplo:
+
+```
+
+const { counter,increment,decrement,reset} = useCounter(10);
+
+useCounter() // Recibe valor por defecto
+
+```

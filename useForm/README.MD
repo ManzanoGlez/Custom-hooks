@@ -4,8 +4,13 @@ Ejemplo:
 
 ```
 
-const { counter,increment,decrement,reset} = useCounter(10);
+const initalForm ={
+    name : '',
+    email : '',
+    password : '',
+}
 
-useCounter() // Recibe valor por defecto
+
+const [values,handleInputChange,reset] = useForm(initalForm);
 
 ```
